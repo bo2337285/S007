@@ -1,0 +1,26 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d"],
+
+    "jsList" : [
+        "src/resource.js",
+
+        "src/mainMenu/scene/MainMenu.js",
+        "src/mainMenu/layer/MMBackGroundLayer.js",
+        "src/mainMenu/layer/MMTouchLayer.js",
+        
+        "src/gameBoard/scene/GameBoard.js",
+        "src/gameBoard/layer/GBBackGroundLayer.js",
+        "src/gameBoard/layer/GBTouchLayer.js",
+        "src/gameBoard/layer/GBMessageLayer.js",
+        "src/gameBoard/classes/MessageManager.js"
+    ]
+}
